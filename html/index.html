@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Loading</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="bg-layer">
+        <video id="bg-video" autoplay muted loop playsinline></video>
+        <img id="bg-image" alt="">
+        <div id="bg-overlay"></div>
+        <div id="bg-grain"></div>
+    </div>
+
+    <audio id="bg-music" loop></audio>
+
+    <header id="top-bar">
+        <div id="server-brand">
+            <img id="server-logo" alt="">
+            <div id="server-text">
+                <span id="server-name"></span>
+                <span id="case-number"></span>
+            </div>
+        </div>
+        <div id="status-cluster">
+            <div id="status-dot"></div>
+            <span id="status-label">CONNECTION SECURE</span>
+        </div>
+    </header>
+
+    <main id="dossier-wrap">
+        <nav id="folder-tabs" role="tablist" aria-label="Loading screen info categories"></nav>
+        <div id="dossier-card">
+            <div id="dossier-header">
+                <span id="dossier-stamp">CLASSIFIED</span>
+                <span id="dossier-cursor-blink">_</span>
+            </div>
+            <div id="dossier-content" role="tabpanel"></div>
+        </div>
+    </main>
+
+    <footer id="bottom-bar">
+        <div id="progress-row">
+            <span id="progress-bracket-l">[</span>
+            <div id="progress-track">
+                <div id="progress-fill"></div>
+            </div>
+            <span id="progress-bracket-r">]</span>
+            <span id="progress-percent">000%</span>
+        </div>
+        <div id="loading-text"></div>
+        <div id="keybind-strip"></div>
+    </footer>
+
+    <button id="mute-btn" title="Toggle audio (M)" aria-label="Toggle audio">
+        <svg id="icon-sound-on" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 9V15H8L13 20V4L8 9H4Z" fill="currentColor"/>
+            <path d="M16.5 8.5C17.5 9.5 18 10.7 18 12C18 13.3 17.5 14.5 16.5 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <svg id="icon-sound-off" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none">
+            <path d="M4 9V15H8L13 20V4L8 9H4Z" fill="currentColor"/>
+            <path d="M16 9L21 14M21 9L16 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <div id="cursor-ring"></div>
+    <div id="cursor-dot"></div>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
