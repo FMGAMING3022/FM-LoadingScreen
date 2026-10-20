@@ -1,5 +1,8 @@
 # FM Script — FiveM Loading Screen
 
+# [Preview](https://youtu.be/4BCdP1CoOuQ?si=z0bDmcwBBMjk8KPe)
+
+
 A modern loading screen resource for FiveM, designed to give your server a clean and professional first impression.
 
 ## ✨ Overview
