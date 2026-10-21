@@ -2,6 +2,7 @@
 
 # [Preview](https://youtu.be/4BCdP1CoOuQ?si=z0bDmcwBBMjk8KPe)
 
+# ![](https://badges.5metrics.dev/FM-LoadingScreen/players.svg)
 
 A modern loading screen resource for FiveM, designed to give your server a clean and professional first impression.
 
